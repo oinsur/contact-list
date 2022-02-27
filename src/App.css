@@ -32,7 +32,12 @@
   width: 90%;
   height: 100%;
 }
-
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+}
 .contactContainer {
   display: flex;
   padding: 20px;
